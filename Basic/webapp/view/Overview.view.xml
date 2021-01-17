@@ -1,0 +1,13 @@
+<mvc:View controllerName="logaligroup.Basic.controller.app" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
+	
+			<Page title="{i18n>homePageTitle}">
+				<headerContent>
+					<Button id="helloDialogHeader" icon="sap-icon://soccer"  press=".onOpenDialog" class="sapUiSmallMarginEnd"></Button>
+				</headerContent>
+				<content>
+					<mvc:XMLView viewName="logaligroup.Basic.view.HelloPanel"/>
+					<mvc:XMLView viewName="logaligroup.Basic.view.InvoiceList"/>
+				</content>
+			</Page>
+	
+</mvc:View>
